@@ -1,7 +1,7 @@
 terraform {
 
   cloud {
-    organization = "devops-project-org"
+    organization = "devsecops-experts"
 
     workspaces {
       name = "devops-project-workspace"
