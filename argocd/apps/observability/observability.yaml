@@ -7,10 +7,10 @@ spec:
   project: default
   source:
     repoURL: git@github.com:ferkhaled/devops_project.git
-    targetRevision: <specific_revision_or_tag>
+    targetRevision: 1.1
     path: manifests/observability
   destination:
     server: https://kubernetes.default.svc
-    namespace: <specific_namespace>
+    namespace: monitoring
   syncPolicy:
     automated: {}
